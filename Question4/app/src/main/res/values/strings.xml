@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Question4</string>
+    <string-array name="my_words">
+        <item>you</item>
+        <item>yuo</item>
+        <item>probably</item>
+        <item>porbalby</item>
+        <item>despite</item>
+        <item>desptie</item>
+        <item>moon</item>
+        <item>nmoo</item>
+        <item>misspellings</item>
+        <item>mpeissngslli</item>
+        <item>pale</item>
+        <item>ple</item>
+        <item>pales</item>
+        <item>bale</item>
+        <item>bake</item>
+    </string-array>
+</resources>
