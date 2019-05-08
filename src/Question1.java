@@ -4,8 +4,10 @@ public class Question1 {
 		String word = "User is not allowed      ";
 		int length = 19;
 		Question1.alterChar(word.toCharArray(), length);
+		//Space O(n)
+		//Time O(n)
 	}
-	public static void alterChar(char[] array, int length) {
+	public static char[] alterChar(char[] array, int length) {
 		int spaces = Question1.countSpaces(array,length);
 		for (int i = length-1; i >= 0; i--) {
 			int dif=i+(spaces*3)-spaces;
@@ -18,6 +20,7 @@ public class Question1 {
 			}
 		}
 		System.out.println(array);
+		return array;
 	}
 	public static int countSpaces(char[] array,int length) {
 		int spaces=0;
