@@ -12,6 +12,8 @@ public class Question5 {
 		message.show();
 		message.removeDuplicates();
 		message.show();
+		//Time O(1)
+		//Space O(n)
 	}
 	public void show(){
 		Node aux = head;
