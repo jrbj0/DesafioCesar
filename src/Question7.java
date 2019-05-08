@@ -13,6 +13,8 @@ public class Question7 {
 		list2.show();
 		System.out.print("Intersection -> ");
 		showIntersection(list1.getIntersection(list2));
+		//Time O(n)
+		//Space O(n)
 		
 		
 	}
